@@ -1,0 +1,25 @@
+body {
+  background-color: #999999;
+}
+
+.slick_box {
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  width: 840px;
+}
+
+.slick_box .slick {
+  display: flex;
+  justify-content: center;
+}
+
+.slick_box .slick .img {
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.slick-prev {
+  left: 10px;
+}
